@@ -9,7 +9,7 @@ Software Developer
 ### PROJECT LINK
 This link will take you to my project
 ## USER STORY
-As a user, I would like to:
+### As a user, I would like to:
 
 View posted projects and their details
 
