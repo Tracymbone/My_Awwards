@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # PROJECT NAME
 Akan-culture
 ## PROJECT  DESCRIPTION
