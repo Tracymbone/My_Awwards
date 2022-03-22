@@ -2,7 +2,7 @@
 # PROJECT NAME
 Awwards
 ## PROJECT  DESCRIPTION
-This project aims at showing the akan system of naming newbornes.
+
 ### AUTHOR INFORMATION
 Trcay Mbone
 Software Developer
