@@ -7,6 +7,8 @@ This application will allow a user to post a project he/she has created and get 
 Trcay Mbone
 Software Developer
 ### PROJECT LINK
+This link will take you to my project
+
 ## SETUP INSTRUCTION
 This project is also foung in other medias.
 ## TECHNOLOGIES USED
