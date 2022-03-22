@@ -17,7 +17,7 @@ Git
 Heroku
 ## CONTACT INFORMATION
 +254740848186
-+
++254701506901
 
 # Project Name
 Akan culture
