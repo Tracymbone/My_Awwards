@@ -14,6 +14,7 @@ Bootstrup
 python
 Css
 git
+heroku
 ## CONTACT INFORMATION
 +254740848186
 
