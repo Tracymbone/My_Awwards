@@ -12,11 +12,16 @@ This link will take you to my project
 As a user, I would like to:
 
 View posted projects and their details
+
 Post a project to be rated/reviewed
+
 Rate/ review other users' projects
-Search for projects 
+
+Search for projects
+
 View projects overall score
-View my profile pa
+
+View my profile page
 
 ## SETUP INSTRUCTION
 This project is also foung in other medias.
