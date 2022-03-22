@@ -11,7 +11,7 @@ This project is also foung in other medias.
 ## TECHNOLOGIES USED
 Html
 Bootstrup
-Javascript
+python
 Css
 ## CONTACT INFORMATION
 +254740848186
