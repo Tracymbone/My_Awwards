@@ -26,7 +26,7 @@ class Project(models.Model):
   profile = models.ForeignKey(User, related_name="projects", on_delete=models.CASCADE)
   title = models.CharField(max_length=144)
   description = models.TextField()
-  img = ImageField(manual_crop = '1920x1080')
+  img = CloudinaryField(manual_crop = '1920x1080')
   live_site = models.URLField(max_length=250)
 
   @classmethod
