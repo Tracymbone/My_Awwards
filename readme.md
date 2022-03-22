@@ -32,4 +32,3 @@ Bootstrup
 ### Contact Information
 +254740848186
 
->>>>>>> 47df425aca1c284d4c604ae82a666fa94bdcbcf1
