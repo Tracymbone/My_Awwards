@@ -6,7 +6,7 @@ This application will allow a user to post a project he/she has created and get 
 ### AUTHOR INFORMATION
 Trcay Mbone
 Software Developer
-### PROJECT
+### PROJECT LINK
 ## SETUP INSTRUCTION
 This project is also foung in other medias.
 ## TECHNOLOGIES USED
