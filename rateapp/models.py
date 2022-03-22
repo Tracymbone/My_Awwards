@@ -7,8 +7,8 @@ from cloudinary.models import CloudinaryField
 # Create your models here.
 class Profile(models.Model):
   user = models.OneToOneField(User,on_delete=models.CASCADE, primary_key=True)
-  bio = CloudinaryField()
-  profile_pic = CloudinaryField(manual_crop ='1080x1080')
+  bio = models.TextField(max_length=500)
+  profile_pic = CloudinaryField('image')
   contact_info = models.CharField(max_length=144)
 
   @classmethod
@@ -26,7 +26,7 @@ class Project(models.Model):
   profile = models.ForeignKey(User, related_name="projects", on_delete=models.CASCADE)
   title = models.CharField(max_length=144)
   description = models.TextField()
-  img = CloudinaryField(manual_crop = '1920x1080')
+  img = CloudinaryField('image')
   live_site = models.URLField(max_length=250)
 
   @classmethod
