@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-from cloudinary.models import CloudinaryField
+from django.forms import ImageField
 # from pyuploadcare.dj.models import ImageField
 # from tinymce.models import HTMLField
 
@@ -8,7 +8,7 @@ from cloudinary.models import CloudinaryField
 class Profile(models.Model):
   user = models.OneToOneField(User,on_delete=models.CASCADE, primary_key=True)
   bio = models.TextField(max_length=500)
-  profile_pic = CloudinaryField('image')
+  profile_pic = models.ImageField(upload_to="profiles/") 
   contact_info = models.CharField(max_length=144)
 
   @classmethod
@@ -26,7 +26,7 @@ class Project(models.Model):
   profile = models.ForeignKey(User, related_name="projects", on_delete=models.CASCADE)
   title = models.CharField(max_length=144)
   description = models.TextField()
-  img = CloudinaryField('image')
+  img = models.ImageField(upload_to="profiles/")
   live_site = models.URLField(max_length=250)
 
   @classmethod
